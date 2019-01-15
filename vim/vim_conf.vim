@@ -1,5 +1,6 @@
 " Colors {{{
-colorscheme badwolf
+colorscheme gruvbox
+set background=dark
 syntax enable
 " }}}
 
@@ -53,6 +54,7 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'haya14busa/incsearch.vim'
+Plugin 'romainl/vim-cool'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 
@@ -83,7 +85,8 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/.ycm_extra_conf.py'
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+"let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
