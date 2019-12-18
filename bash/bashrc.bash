@@ -2,10 +2,12 @@ alias hdd1='cd /mnt/data/Windows'
 alias tibia='cd ~/Games/Tibia && sudo sh start-tibia-launcher.sh'
 alias cmakeclear='find . -iwholename "*cmake*" -not -name CMakeLists.txt -delete'
 
-alias dit11='cd /mnt/data/Windows/college_stuff/DIT_TUD/1styear/semester1/'
-alias dit21='cd /mnt/data/Windows/college_stuff/DIT_TUD/2ndyear/semester1'
-alias dit22='cd /mnt/data/Windows/college_stuff/DIT_TUD/2ndyear/semester2'
-alias dit31='cd /mnt/data/Windows/college_stuff/DIT_TUD/3rdyear/sem1/'
+alias dit11='nautilus /mnt/data/Windows/college_stuff/DIT_TUD/1styear/semester1/'
+alias dit21='nautilus /mnt/data/Windows/college_stuff/DIT_TUD/2ndyear/semester1'
+alias dit22='nautilus /mnt/data/Windows/college_stuff/DIT_TUD/2ndyear/semester2'
+alias dit31='nautilus /mnt/data/Windows/college_stuff/DIT_TUD/3rdyear/sem1/'
+
+alias cya='sh ~/.dotfiles/bash/countdown.sh'
 
 
 # ARM
